@@ -1,0 +1,8 @@
+<a href = "/login">Login</a>
+<a href = "/insert">Insert</a>
+
+{% for user in data %}
+
+<p>{{ user.nombre }} {{ user.correo }}</p>
+
+{% endfor %}
